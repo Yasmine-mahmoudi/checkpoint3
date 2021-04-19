@@ -1,0 +1,126 @@
+/* 1- Create a file `styles.css`. (done) */
+
+/* 4 -Change the font to roboto. (done) */
+* {
+    font-family: "Roboto";
+  }
+  h1 {
+    /* font-family: "Roboto", monospace; */
+    color: rgb(19, 16, 17);
+  }
+  h2 {
+    /* font-family: "Roboto", monospace; */
+    color: #6386e4
+  }
+  a{
+    /* font-family: "Roboto", monospace; */
+    color: rgb(52, 10, 119)
+  }
+  #about{
+    background-color: rgb(216, 208, 212);
+    background-repeat: no-repeat;
+  }
+  #work{
+     background-color: rgb(216, 208, 212);
+     background-repeat: no-repeat;
+   }
+   #contact{
+    background-color: rgb(216, 208, 212);
+    background-repeat: no-repeat;
+  }
+  #footer{
+    background-color: #6b78f0;
+    background-repeat: no-repeat;
+  }
+  #resume{
+    background-color: rgb(216, 208, 212);
+    background-repeat: no-repeat;
+  }
+   nav ul {
+    position: fixed;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    }
+   nav li {
+    margin-left:2px;
+    float:left; /*pour IE*/
+    }
+
+    /* -3- Change the display of navbar to make it inline. (done) */
+   nav ul li a {
+    display:block;
+    float:left;   
+    width:232px;
+    height: 50px;
+    background-color:#6495ED;
+    color:rgb(72, 36, 230);
+    text-decoration:none;
+    text-align:Center;
+    padding:5px;
+    border:2px solid;
+    /*pour avoir un effet "outset" avec IE :*/
+    border-color:#DCDCDC #696969 #696969 #DCDCDC;
+    }
+    nav ul li a:hover {
+    background-color:#D3D3D3;
+    border-color:#696969 #DCDCDC #DCDCDC #696969;
+    } 
+  li{
+        font-weight: bold;
+        line-height: 35px;
+    }
+
+   
+    label {
+      padding-right: 10px;
+      font-size: 1rem;
+    }
+    .bntDownload{
+      font-size:16px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight:700;
+      background:#6386e4;
+      padding:16px 22px;
+      display:inline-block;
+    }
+    .bntDownload:hover{
+      background:#495e94;
+      color:#3378b1;
+      text-decoration:none;
+    }
+    .img-circle {
+      border-radius: 50%;
+    }
+    .flotte {
+      float:right;
+      }
+    .submitBnt{
+        background:#495e94;
+        font-family: 'Open Sans', sans-serif;
+        color:#6bb4f0;
+        font-size:26px;
+        font-weight:400;
+        text-align:center;
+        float:right;
+        margin:40px;
+      }
+
+    .info {
+          width: 50%;
+          min-height: 50px;
+          padding-right: 15px;
+          padding-left: 15px;
+          float: right;
+        }
+
+    .msg
+         {
+          width: 100%;
+          min-height: 250px;
+          padding-right: 15px;
+          padding-left: 15px;
+        } 
+    .w3-light-grey{background-color:#bdb4b4!important}
+    .w3-container{padding:10px 16px}
+    .w3-blue{color:#495e94!important;background-color:#6bb4f0!important}
