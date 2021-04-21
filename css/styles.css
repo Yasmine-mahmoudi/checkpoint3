@@ -9,31 +9,20 @@
     color: rgb(19, 16, 17);
   }
   h2 {
-    /* font-family: "Roboto", monospace; */
+
     color: #6386e4
   }
   a{
-    /* font-family: "Roboto", monospace; */
+
     color: rgb(52, 10, 119)
   }
-  #about{
+  #about, #work, #contact, #resume{
     background-color: rgb(216, 208, 212);
     background-repeat: no-repeat;
   }
-  #work{
-     background-color: rgb(216, 208, 212);
-     background-repeat: no-repeat;
-   }
-   #contact{
-    background-color: rgb(216, 208, 212);
-    background-repeat: no-repeat;
-  }
+
   #footer{
     background-color: #6b78f0;
-    background-repeat: no-repeat;
-  }
-  #resume{
-    background-color: rgb(216, 208, 212);
     background-repeat: no-repeat;
   }
    nav ul {
